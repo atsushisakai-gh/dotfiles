@@ -28,8 +28,6 @@ set softtabstop=2
 set encoding=utf-8
 set termencoding=utf-8
 set fileencoding=utf-8
-set fileencodings=ucs-bom,euc-jp,cp932,iso-2022-jp
-set fileencodings+=,ucs-2le,ucs-2,utf-8
 
 " --------------------------------
 " Vundle
