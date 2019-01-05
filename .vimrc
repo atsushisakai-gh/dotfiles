@@ -58,9 +58,10 @@ Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'Shougo/neomru.vim'
 Bundle "git://github.com/Shougo/vimproc"
 Bundle 'git://github.com/kmnk/vim-unite-giti.git'
-Bundle 'soramugi/auto-ctags.vim'
+" Bundle 'soramugi/auto-ctags.vim'
 Bundle 'slim-template/vim-slim.git'
 Bundle 'scrooloose/syntastic'
+Bundle 'fatih/vim-go'
 
 filetype plugin indent on     " required!
 "
@@ -177,3 +178,6 @@ nnoremap <C-k> :split<CR> :exe("tjump ".expand('<cword>'))<CR>
 "" syntastic
 let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': ['ruby'] }
 let g:syntastic_ruby_checkers = ['rubocop']
+
+"" golang
+let g:go_fmt_command = "goimports"
